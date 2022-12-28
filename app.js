@@ -1,12 +1,19 @@
 
 
-Array = Nombre1 = prompt("Nombre jugador A");
-Array = Nombre2 = prompt("Nombre jugador B");
 
-let JugadorA = prompt("Ingrese juego JugadorA");
-let JugadorB = prompt("Ingrese juego JugadorB");
+
+
 let gana;
 let veces;
+
+let contadorA = 3;
+let contadorB = 3;
+
+while (contadorA != 0 && contadorB != 0) {
+    let JugadorA = prompt("Ingrese juego JugadorA");
+    let JugadorB = prompt("Ingrese juego JugadorB");
+
+
 //let x = 1;
 //let suma = 0;
 //let valor;
@@ -38,6 +45,18 @@ else if (JugadorA == JugadorB) {
 }
 
 
+iniciar= prompt("¿Jugar de nuevo?" , "si/no");}
+
+if (iniciar == "no"){
+        if (contadorA > contadorB){
+            document.body.innerHTML =  "Gana JugadorA con : " + contadorA + "victorias"
+        } else if (contadorA == contadorB) {
+            document.body.innerHTML =  "¡Empate!"
+        } else (contadorB> contadorB)
+            document.body.innerHTML =  "Gana JugadorB con : " + contadorB + "victorias"}
+        
+
+    
 
 
 
